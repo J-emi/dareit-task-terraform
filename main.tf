@@ -32,6 +32,4 @@ resource "google_storage_bucket" "static" {
  name          = "jch-dareit-terraform-auto-bucket"
  location      = "EU"
  storage_class = "STANDARD"
-
- uniform_bucket_level_access = true
 }
