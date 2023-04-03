@@ -28,7 +28,6 @@ resource "google_compute_instance" "dareit-vm-ci" {
 # Create new bucket
 
 resource "google_storage_bucket" "static" {
- project       = "winged-plate-378113"
  name          = "jch-dareit-terraform-auto-bucket"
  location      = "EU"
  storage_class = "STANDARD"
