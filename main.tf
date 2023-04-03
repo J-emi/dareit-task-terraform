@@ -28,7 +28,7 @@ resource "google_compute_instance" "dareit-vm-ci" {
 # Create new bucket
 
 resource "google_storage_bucket" "static" {
- name          = "jch-dareit-terraform-auto-bucket"
- location      = "EU"
- storage_class = "STANDARD"
+  name          = "jch-dareit-terraform-auto-bucket"
+  location      = "EU"
+  storage_class = "STANDARD"
 }
