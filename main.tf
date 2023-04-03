@@ -1,3 +1,5 @@
+# Create new virtual machine
+
 resource "google_compute_instance" "dareit-vm-ci" {
   name         = "dareit-vm-tf-ci"
   machine_type = "e2-medium"
@@ -21,4 +23,15 @@ resource "google_compute_instance" "dareit-vm-ci" {
       // Ephemeral public IP
     }
   }
+}
+
+# Create new bucket
+
+resource "google_storage_bucket" "static" {
+ project       = "winged-plate-378113"
+ name          = "jch-dareit-terraform-auto-bucket"
+ location      = "EU"
+ storage_class = "STANDARD"
+
+ uniform_bucket_level_access = true
 }
