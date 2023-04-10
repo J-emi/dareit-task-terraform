@@ -2,6 +2,8 @@
 
 ## Task 7 | 30.03.2023
 
+❗ Tested but currently non-active (commented out the Terraform code that holds the definition of the resources)
+
 ###  :bulb: Goal:
 
 **Create your first CI/CD pipeline and understand the principles of the CI/CD practice.**
@@ -41,5 +43,5 @@
         └── terraform.yml
 ```
 
-
+❗ Tested but currently non-active (commented out the Terraform code that holds the definition of the resources and apply the Terraform)
 

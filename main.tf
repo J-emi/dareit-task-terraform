@@ -1,6 +1,6 @@
 # Create new virtual machine
 
-resource "google_compute_instance" "dareit-vm-ci" {
+/* resource "google_compute_instance" "dareit-vm-ci" {
   name         = "dareit-vm-tf-ci"
   machine_type = "e2-medium"
   zone         = "europe-north1-a"
@@ -31,4 +31,4 @@ resource "google_storage_bucket" "static" {
   name          = "jch-dareit-terraform-auto-bucket"
   location      = "EU"
   storage_class = "STANDARD"
-}
+}*/
